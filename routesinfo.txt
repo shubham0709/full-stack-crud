@@ -1,0 +1,11 @@
+**--auth routes --**
+POST - /user/register
+GET  - /user/login
+
+**--authenticated (verify token) required--**
+POST    -  /notes/create
+GET     -  /notes (of current loggedIn user only)
+PATCH   -  /notes/edit
+DELETE  -  /notes/delete
+
+base_url : https://limitless-lake-42245.herokuapp.com/
